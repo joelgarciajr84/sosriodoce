@@ -1,6 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
+@import url(https://fonts.googleapis.com/css?family=Trocchi);
+
 body{
     width: 100%;
-    background-color: #444;
+    background-color: #bc8630;
+    color: #FFF;
+}
+.container-twitter{
+    background: #FFF;
+    padding: 15px;
+}
+
+.container-facebook{
+    background: #FFF;
+    padding: 15px;
 }
 .left{
     width: 34%;
@@ -10,4 +23,12 @@ body{
 .right{
     width: 60%;
     float: right;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Arimo', sans-serif;
+}
+
+p {
+    font-family: 'Trocchi', serif;
 }
