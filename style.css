@@ -1,0 +1,12 @@
+.full{
+    width: 100%
+}
+.left{
+    width: 34%;
+    float: left;
+
+}
+.right{
+    width: 45%;
+    float: right;
+}
