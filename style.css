@@ -1,29 +1,64 @@
 @import url(https://fonts.googleapis.com/css?family=Arimo:400,700);
 @import url(https://fonts.googleapis.com/css?family=Trocchi);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body{
-    width: 100%;
-    background-color: #bc8630;
+
+    background-color: #000;
+    background-image: url('riodoce.jpg');
+    background-size: cover;
     color: #FFF;
 }
+
+.bg-black {
+    background: #000;
+}
+.black-box {
+
+    margin-top: -50px;
+
+}
+.container {
+     margin:0 10%;
+     background: #000;
+}
+
+.container h1,h2,h3,h4,h5,h6 {
+text-align: center;
+font-family: 'Open Sans', sans-serif;
+ }
+
+ #title {
+     font-size:48px;
+ }
+
+.container p {
+    max-width: 60%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    list-style: 2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
 .container-twitter{
-    background: #FFF;
+
     padding: 15px;
+    width: 40%;
+    float: left;
+    position: relative;
+
 }
 
 .container-facebook{
     background: #FFF;
     padding: 15px;
-}
-.left{
-    width: 34%;
-    float: left;
+    width: 40%;
+    float: right;
+    position: relative;
+
 
 }
-.right{
-    width: 60%;
-    float: right;
-}
+
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Arimo', sans-serif;
@@ -31,4 +66,9 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     font-family: 'Trocchi', serif;
+}
+
+footer {
+    background: #000;
+
 }
